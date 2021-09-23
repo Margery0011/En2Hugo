@@ -36,7 +36,8 @@ None
 
 ## Known Issues
 
-If you want to do this conversion successfully, you should know the right column to use -f[n].
+If you want to do this conversion successfully, you should know the right column to use -f[n] and the f-paramter can not be missed.
+
 
 # Histogram.py
 
