@@ -52,4 +52,6 @@ If you want to do this conversion successfully, you should know the right column
 
 ## Know Issues
 
-none
+- Need to install the python library matplotlib:
+ `pip install --user matplotlib`
+- It is used to handle `.csv` files.
