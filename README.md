@@ -17,8 +17,11 @@ Extracts every phone numbers from a text file and print them as a list. Use rege
 
 It could find phone number in format (0XX) 7 or 8 digit number,0XX- 7 or 8 digit number and 0XX 7 or 8 digit number.
 
+## Known issues
 
-#ensg2hugo.py
+None
+
+# ensg2hugo.py
 
 ## Usage
 
@@ -31,3 +34,22 @@ python3 ensg2hugo.py [-f][0-9] [file]
 - "-f[1-9]" means usc the No.n column , in this Unit test file , you should use -f2 to pick the second column.
 - `git clone` the test file expres.anal.csv。
 
+## Known Issues
+
+If you want to do this conversion successfully, you should know the right column to use -f[n].
+
+# Histogram.py
+
+## Usage
+
+`python3 histogram.py [-f][0-9] [file]`
+
+## Description
+
+- Creates a histogram as a png from a csv file using the specified column in a tab delimited file.
+- "-f[n] means you should the nth column to draw this histogram.
+- The test file is "addresses.csv" and the histogram obtained is "histogram.png"
+
+## Know Issues
+
+none
