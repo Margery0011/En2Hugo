@@ -25,7 +25,7 @@ None
 
 ## Usage
 
-python3 ensg2hugo.py [-f][0-9] [file]
+`python3 ensg2hugo.py [-f][0-9] [file]`
 
 ## Description
 
